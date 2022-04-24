@@ -28,11 +28,11 @@ public class Course {
     private String subtitle;
 
 
-    @Column(length = 100, nullable = false)
+    @Column(nullable = false)
     private BigDecimal price;
 
 
-    @Column(length = 100, nullable = false)
+    @Column(nullable = false)
     private LocalDateTime created;
 
 
