@@ -25,7 +25,6 @@ public class CourseController {
     @DeleteMapping("{courseId}")//api/course/{courseId}
     public ResponseEntity<?> deleteCourse(@PathVariable Long courseId) {
         courseService.deleteCourse(courseId);
-
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
